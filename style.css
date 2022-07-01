@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(22, 21, 21);
+    height: 100px;
+
+
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.fb30e1e5c91e3d6597c232c7de386c47?rik=5Z1C5lTPBLBOxA&riu=http%3a%2f%2fi.imgur.com%2fbJuhw.jpg&ehk=KEVY3NNZsdRP%2fUEdwhsbWsiXjSYR%2fre3yY0zVWQXZLY%3d&risl=&pid=ImgRaw&r=0);
+
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: white;
+
+}
+
+a {
+    margin: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Stick No Bills', sans-serif;
+
+
+}
+
+li a:hover {
+    background: none;
+    color: brown;
+    transition: 1s;
+    border-radius: 10px;
+
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: brown;
+    transition: 1s;
+
+}
+
+p {
+    margin-left: 80px;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+
+.hamburguesa {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.burguerImg {
+    width: 500px;
+    height: 500px;
+}
